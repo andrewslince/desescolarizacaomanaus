@@ -481,3 +481,13 @@ input.search-field {
 .search-no-results .search-submit {
     margin-left: -3px;
 }
+
+/**
+ * Comentários do post
+ */
+
+.comments-title {
+    background-color: #333;
+    border-bottom: none;
+    color: #fff;
+}
