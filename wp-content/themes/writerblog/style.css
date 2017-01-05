@@ -418,3 +418,66 @@ input.search-field {
 .saboxplugin-wrap .saboxplugin-socials {
     text-align: right;
 }
+
+/**
+ * Página de busca
+ */
+
+.search .page-header {
+    border: none;
+    margin: 0 0 45px 0;
+    padding: 0;
+}
+
+.search .page-title {
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    padding: 35px 0;
+}
+
+.search .page-title span {
+    color: #ff7f66;
+    font-size: 38px;
+    font-weight: 100;
+}
+
+.search .post span.posted-on {
+    margin-left: 0;
+}
+
+.search .post .entry-meta > span {
+    border-right: 1px #ccc solid;
+    margin-right: 20px;
+    padding-right: 20px;
+    font-style: italic;
+}
+
+.search .post .entry-meta > span:last-child {
+    border-right: none;
+}
+
+.search .entry-header {
+    margin-bottom: 20px;
+}
+
+.search article.hentry:not(.has-post-thumbnail) {
+    padding-top: 0;
+}
+
+/**
+ * Página de busca not found
+ */
+
+.search-no-results input.search-field {
+    border-color: #e3e3e3;
+
+}
+
+.search-no-results .page-content .search-form:before {
+    display: none;
+}
+
+.search-no-results .search-submit {
+    margin-left: -3px;
+}
