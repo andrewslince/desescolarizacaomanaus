@@ -88,7 +88,7 @@ body:not(.custom-background) div#page {
 .top-category a {
 	color: #fff;
 }
-article.hentry:not(.has-post-thumbnail) .top-category, 
+article.hentry:not(.has-post-thumbnail) .top-category,
 article.hentry.amadeus-image-hidden .top-category {
     margin-top: -50px;
     margin-bottom: 30px;
@@ -310,4 +310,111 @@ a:hover {
         padding: 0;
         width: 100%;
     }
+}
+
+/*******************************************************************************
+ * ESTILOS CUSTOMIZADOS ESPECIALMENTE PARA O PROJETO "DESESCOLARIZAÇÃO MANAUS"
+ ******************************************************************************/
+
+/**
+ * Bordas dos boxes de conteúdo e widgets
+ */
+
+.hentry, .widget-area .widget {
+    border: 1px #e9e9e9 solid;
+}
+
+/**
+ * Informações de autor nativas do tema
+ */
+
+.amadeus-child-author-entry-footer {
+    display: none;
+}
+
+/**
+ * Tags do post
+ */
+
+.entry-meta,
+.entry-meta a,
+.entry-footer,
+.entry-footer a {
+    color: #777;
+}
+
+.entry-footer .tags-links a {
+    color: darkorange !important;
+    display: inline-block;
+    font-size: 15px;
+    padding: 0 1px;
+}
+
+/**
+ * Box de busca
+ */
+
+.widget-area .widget.widget_search {
+    border:none;
+}
+
+.widget_search .search-form {
+    position: relative;
+}
+
+.widget_search .search-form input[type="submit"]:hover {
+    color: transparent;
+    background-color: transparent;
+}
+
+.widget_search .search-submit {
+    background-color: transparent;
+    color: transparent;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: -5px;
+    width: 50px;
+}
+
+form.search-form:before {
+    background-color: #333;
+    color: #fff;
+    content: '\f002';
+    font-family: FontAwesome;
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 50px;
+}
+
+.widget-area .widget.widget_search form label {
+    margin-bottom: 0;
+}
+
+input.search-field {
+    border: 1px #fff solid;
+    border-radius: 0;
+    padding-right: 63px;
+}
+
+/**
+ * Informações do autor do post
+ */
+
+.saboxplugin-wrap {
+    position: relative;
+}
+
+.saboxplugin-wrap .saboxplugin-web {
+    position: absolute;
+    z-index: 51;
+    bottom: 0;
+}
+
+.saboxplugin-wrap .saboxplugin-socials {
+    text-align: right;
 }
