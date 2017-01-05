@@ -317,6 +317,23 @@ a:hover {
  ******************************************************************************/
 
 /**
+ * Títulos de páginas
+ */
+
+.page-header {
+    border: none;
+    margin: 0 0 45px 0;
+    padding: 0;
+}
+
+.page-title {
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    padding: 38px 0;
+}
+
+/**
  * Bordas dos boxes de conteúdo e widgets
  */
 
@@ -423,16 +440,7 @@ input.search-field {
  * Página de busca
  */
 
-.search .page-header {
-    border: none;
-    margin: 0 0 45px 0;
-    padding: 0;
-}
-
 .search .page-title {
-    background-color: transparent;
-    border: none;
-    font-weight: bold;
     padding: 35px 0;
 }
 
