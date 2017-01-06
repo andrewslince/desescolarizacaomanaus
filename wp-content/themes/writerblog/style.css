@@ -499,3 +499,18 @@ input.search-field {
     border-bottom: none;
     color: #fff;
 }
+
+/**
+ * Responsive styles
+ */
+@media screen and (max-width: 480px) {
+    .saboxplugin-wrap .saboxplugin-web {
+        margin-bottom: 30px;
+        position: inherit;
+        text-align: center;
+    }
+
+    .saboxplugin-wrap .saboxplugin-socials {
+        text-align: center;
+    }
+}
