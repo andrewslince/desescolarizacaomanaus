@@ -316,6 +316,54 @@ a:hover {
  * ESTILOS CUSTOMIZADOS ESPECIALMENTE PARA O PROJETO "DESESCOLARIZAÇÃO MANAUS"
  ******************************************************************************/
 
+ .site-title a {
+    color: #333 !important;
+    font-weight: bold;
+ }
+
+/**
+ * Menu principal
+ */
+.main-navigation .menu a {
+    color: #555 !important;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 46px;
+    text-transform: uppercase;
+}
+
+.main-navigation .menu a:hover {
+    color: #ff7f66 !important;
+}
+
+.main-navigation .sub-menu {
+    top: 92%;
+}
+
+.main-navigation .sub-menu .menu-item {
+    background-color: transparent;
+    border-color: #232323;
+    padding: 0;
+}
+
+.main-navigation li::before {
+    margin-right: 0;
+}
+
+.main-navigation .sub-menu li a {
+    background-color: #333;
+    color: #fff !important;
+    margin-right: 0 !important;
+    padding-left: 15px;
+    text-transform: inherit;
+}
+
+.main-navigation .sub-menu li a:hover {
+    background-color: #ff7f66;
+    color: #fff !important;
+    text-shadow: #000 1px 1px 2px;
+}
+
 /**
  * Títulos de páginas
  */
