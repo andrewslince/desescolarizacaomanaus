@@ -1,6 +1,6 @@
-# **Desescolarização Manaus**
+# **Livre Aprendizagem**
 
-> Comunidade de Livre Prendizagem e Desescolarização
+> Comunidade de educação viva e auto-aprendizagem
 
 ## Requirements
 
