@@ -526,16 +526,16 @@ input.search-field {
  * Página de busca not found
  */
 
-.search-no-results input.search-field {
+.page-content input.search-field {
     border-color: #e3e3e3;
 
 }
 
-.search-no-results .page-content .search-form:before {
+.page-content .search-form:before {
     display: none;
 }
 
-.search-no-results .search-submit {
+.page-content .search-submit {
     margin-left: -3px;
 }
 
